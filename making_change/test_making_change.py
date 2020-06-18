@@ -24,6 +24,7 @@ class Test(unittest.TestCase):
     self.assertEqual(making_change(2000, self.denominations), 11712101)
     self.assertEqual(making_change(5000, self.denominations), 432699251)
     self.assertEqual(making_change(10000, self.denominations), 6794128501)
+    pass
 
 
 if __name__ == '__main__':
